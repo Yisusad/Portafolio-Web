@@ -101,3 +101,38 @@ span {
     width: 385px;
     object-fit: cover; /* Asegura que la imagen se recorte correctamente */
 }
+
+/* About */
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+}
+
+.about img {
+    width: 100%;
+    grid-column: 1 / 5;
+}
+
+.about-info {
+    padding: 3em;
+    grid-column: 5 / 10;
+}
+
+.about-info h2 {
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider {
+    height: 4px;
+    width: 50px;
+    background-color: aqua;
+    margin-top: 2px;
+    margin-bottom: 2em;
+}
+
+.about-info p {
+    margin-bottom: 1em;
+}
