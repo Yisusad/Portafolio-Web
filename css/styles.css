@@ -56,3 +56,48 @@ body {
     background-color: aqua;
     color: #191c32;transition: ease-in 0.4s;
 }
+
+/* Main */
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+span {
+    color: aqua;
+}
+
+.download {
+    padding: 10px 20px;
+    background-color: aqua;
+    color: #191c32;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.download:hover {
+    background-color: white;
+    box-shadow: none;
+    transition: ease-in 0.2s;
+}
+
+.info-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.main img {
+    width: 385px;
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+}
